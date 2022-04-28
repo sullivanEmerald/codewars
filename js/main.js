@@ -45,16 +45,25 @@
 // }
     
 // console.log(calculateScore(input))
-let array = [50, 70, 80, 90]
+// let array = [50, 70, 80, 90]
 
-// let result  = Math.min(...arr)
-// console.log(result)
+// // let result  = Math.min(...arr)
+// // console.log(result)
 
-function smallestInteger(arr){
-    let sorterd = arr.sort((a,b) => a-b)
-    let max = sorterd[sorterd.length -1]
-    return max
-}
+// function smallestInteger(arr){
+//     let sorterd = arr.sort((a,b) => a-b)
+//     let max = sorterd[sorterd.length -1]
+//     return max
+// }
 
-let answer = smallestInteger(array)
+// let answer = smallestInteger(array)
+// console.log(answer)
+
+function litres(time) {
+    let result = time * 0.5
+    return Math.floor(result)
+    
+  }
+
+let answer = litres(80.5)
 console.log(answer)
