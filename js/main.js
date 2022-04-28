@@ -59,11 +59,20 @@
 // let answer = smallestInteger(array)
 // console.log(answer)
 
-function litres(time) {
-    let result = time * 0.5
-    return Math.floor(result)
+// function litres(time) {
+//     let result = time * 0.5
+//     return Math.floor(result)
     
-  }
+//   }
 
-let answer = litres(80.5)
-console.log(answer)
+// let answer = litres(80.5)
+// console.log(answer)
+
+function hoopCount (n) {
+   //your code goes here 
+  
+  return (n >= 10) ? "Great, now move on to tricks" : "Keep at it until you get it"
+  
+}
+
+console.log(hoopCount(10))
